@@ -22,7 +22,7 @@ int main()
 	getline(cin, name); //function call to get input from keyboard for Buyer's name
 	cout << "Purchase price: ";
 	cin >> price; //input for price
-	cin.ignore(100, '\n');
+	cin.ignore(100, '\n'); //function call
 	cout << "Item number: ";
 	getline(cin, itemNum);//function call to get input from keyboard for intem number
 
